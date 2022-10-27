@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillTwitterCircle, AiFillLinkedin, AifillGithub} from "react-icons/ai"
-import Image from "next/image";
-import design from "../public/design.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
+
 
 
 
@@ -49,7 +46,7 @@ export default function Home() {
           </div>
           </div>
           <div>
-          <image src={}/>
+        
           </div>
         </section>
 
