@@ -4,10 +4,14 @@
 # terminal packages
 initial with  npm run dev
 
-
+npm i gh-pages
 npx create-next-app@latest reactfolio
-npm install -D tailwindcss
-npx tailwindcss init
+npm i scripts
+npm i react-animations
+npm i rxjs
+npm i react
+npm i iconify
+npm i react-bootstrap
 
 // 
 
