@@ -1,5 +1,8 @@
 import Head from 'next/head';
-
+import {BsFillMoonStarsFill} from "react-icons/bs";
+import {AiFillTwitterCircle, AiFillLinkedin, AifillGithub} from "react-icons/ai"
+import Image from "next/image";
+import deved from "../public/dev-ed-wave.png"
 
 export default function Home() {
   return (
@@ -10,9 +13,30 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <section classNane="bg-blue-600">
-      <h1>Hello</h1>
+      <main className="bg-white px-10">
+        <section className="bg-blue-200 min-h-screen">
+          <nav className="py-11 mb-12 flex justify-between">
+            <h1 className="text-xl font-bold">Saludos
+              <ul className="flex items-center">
+                <li>
+                <BsFillMoonStarsFill className="cursor-pointer"/>
+                  <li>
+                    <a className="bg-gradient-to-l  from-blue-400 to bg-blue-800 text-white px-4 py-0 rounded-md ml-6" href="#"> Resume </a></li>
+                </li>
+              </ul>
+            </h1>
+          </nav>
+          <div className="text-center p-10">
+            <h2 className='text-5xl font-medium'
+            > Joel Rivera</h2>
+            <h3 className='text-2xl py-2'> Web Developer and Designer</h3>
+            <p className="text-sm font-bold py-5 leading-7 text-black">
+              some some some
+            </p>
+          <div className="text-5xl flex justify-center gap-16 py-3">
+        <AiFillLinkedin />
+          </div>
+          </div>
         </section>
 
       </main>

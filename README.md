@@ -11,6 +11,9 @@ npx tailwindcss init
 
 // 
 
+import deved from "../public/dev-ed-wave.png"
+
+
 
 [ css ]
 
