@@ -2,7 +2,11 @@ import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillTwitterCircle, AiFillLinkedin, AifillGithub} from "react-icons/ai"
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png"
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+
+
 
 export default function Home() {
   return (
@@ -14,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-white px-10">
-        <section className="bg-blue-200 min-h-screen">
+        <section className=" bg-gradient-to-l  from-blue-200 to bg-blue-800 min-h-screen">
           <nav className="py-11 mb-12 flex justify-between">
             <h1 className="text-xl font-bold">Saludos
               <ul className="flex items-center">
@@ -33,9 +37,19 @@ export default function Home() {
             <p className="text-sm font-bold py-5 leading-7 text-black">
               some some some
             </p>
-          <div className="text-5xl flex justify-center gap-16 py-3">
+          <div className="text-5xl flex justify-center gap-16 py-3 leading-8">
         <AiFillLinkedin />
           </div>
+          <div className=''>
+           <h4 className="text-3xl py-1">Projects done</h4>
+          <p className=" text-md py-2 leading-8 font-bold">Project 1
+          <p className=" text-md py-2 leading-8 font-bold"> Project 2</p>
+          <p className=" text-md py-2 leading-8 font-bold"> Project 3</p>
+          </p>
+          </div>
+          </div>
+          <div>
+          <image src={}/>
           </div>
         </section>
 
