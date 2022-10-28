@@ -7,42 +7,41 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-function App() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+export default function App() {
+  
+  const [currentPage, setCurrentPage] = useState('About')
+  
+  const selectedPage = () => {
+    if (currentPage === 'About') {
+      return <About />
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />
+    }
+    if (currentPage === 'Portfolio') {
+      return <Project />
+    }
+    
+  }
+  
+  const pageChange = (page) => setCurrentPage(page);
+  
+  
+    return (
+    <>
+    <header>
+    <Header currentPage={currentPage} pageChange={pageChange}/>
+    </header>
+  
+    <main>
+      {selectedPage()}
+    </main>
+   
+    <footer>
+    <Footer />
+    </footer>
+    </>
+    );
+  }
+  
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
-  return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-        ) : (
-          <Contact></Contact>
-        )}
-      </main>
-    </div>
-  );
-}
-
-export default App;
