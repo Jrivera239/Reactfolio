@@ -1,27 +1,18 @@
 import React from "react";
-import profilephoto from '../../assets/images/profilephoto.jpg'
+import coverImage from "../../assets/cover/cover-image.jpg";
 
-function About() {
-    return (
-      <section>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-6 text-left'>
-                <img src={profilephoto} alt="Dani Reinholz" className="rounded"/>
-              </div>
-            </div>
-          </div>
+const About = () => {
+  return (
+    <section className="my-5">
+      <h1 id="about">Who am I?</h1>
+      <img
+        src={coverImage}
+        className="my-2"
+        style={{ width: "100%" }}
+        alt="cover"
+      />
+    </section>
+  );
+};
 
-          <div className='container'>
-            <div className='row'>
-              <div className='col-6 text-left mt-4'>
-              <p className="text-bold"> Info about me</p>
-              </div>
-            </div>
-          </div>
-
-      </section>
-    );
-  }
-  
-  export default About;
+export default About;
