@@ -5,7 +5,10 @@
 initial with  npm run dev
 
 npm i gh-pages
-npx create-next-app@latest reactfolio
+npm i create-react-app
+npm i @testing-library/react
+npm i @testing-library/jest-dom
+
 npm i scripts
 npm i react-animations
 npm i rxjs

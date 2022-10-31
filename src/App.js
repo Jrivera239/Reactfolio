@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-import Nav from './components/Nav';
 import About from './components/About';
 import Project from './components/Project';
-import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,12 +19,9 @@ export default function App() {
     if (currentPage === 'Portfolio') {
       return <Project />
     }
-    
   }
   
   const pageChange = (page) => setCurrentPage(page);
-  
-  
     return (
     <>
     <header>
