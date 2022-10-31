@@ -14,16 +14,14 @@ const Nav = (props) => {
     document.title = capitalizeFirstLetter(currentCategory.name);
   }, [currentCategory]);
 
-  // wrapped the categorySelected in a function declaration rather than calling it because we want to avoid calling the function every time the component renders
+
   return (
     <header>
       <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            {" "}
-            📸{" "}
-          </span>{" "}
-          Oh Snap!
+        <a data-testid="link design-none" href="/">
+          <span class="design-none">
+          </span >{" "}
+          Reactfolio
         </a>
       </h2>
       <nav>

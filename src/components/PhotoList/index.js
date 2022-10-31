@@ -9,111 +9,111 @@ function PhotoList({ category }) {
       description: "Lorem ipsum dolor sit amet, consectetur adipsicing elit.",
     },
     {
-      name: "Grocery booth",
+      name: "Produce section",
       category: "commercial",
-      description: "",
+      description: "vegetables and greens",
     },
     {
-      name: "Building exterior",
+      name: "Insde grocery store",
       category: "commercial",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Produce and fruits, apples",
     },
     {
-      name: "Restaurant table",
+      name: "Outside building",
       category: "commercial",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Multi-floor building residency",
     },
     {
       name: "Cafe interior",
       category: "commercial",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Inside cafe shope restaurant",
     },
     {
       name: "Cat green eyes",
       category: "portraits",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Cat makign eye contact towards the camera",
     },
     {
       name: "Green parrot",
       category: "portraits",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Green parot on its house",
     },
     {
       name: "Yellow macaw",
       category: "portraits",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Extending it's wings beautifuly",
     },
     {
       name: "Pug smile",
       category: "portraits",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Say smile like jaws the shark!",
     },
     {
       name: "Pancakes",
       category: "food",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Delicious pancakes wit fruits on top",
     },
     {
       name: "Burrito",
       category: "food",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Did anyone sid viva Mexico?",
     },
     {
       name: "Scallop pasta",
       category: "food",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "sky view scallop on a soup",
     },
     {
       name: "Burger",
       category: "food",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "In and out yummy burger",
     },
     {
       name: "Fruit bowl",
       category: "food",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Tastiest breakfast with blackberry,rasberry alonds,pineapple and bueberries",
     },
     {
       name: "Green river",
       category: "landscape",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "relaxing rivera",
     },
     {
       name: "Docks",
       category: "landscape",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "massive lake traced with a dock in middle",
     },
     {
       name: "Panoramic village by sea",
       category: "landscape",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "most unique place to see ",
     },
     {
       name: "Domestic landscape",
       category: "landscape",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Home sweet home",
     },
     {
       name: "Park bench",
       category: "landscape",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Bench on sidewalk",
     },
   ]);
 

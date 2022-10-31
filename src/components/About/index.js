@@ -8,9 +8,10 @@ const About = () => {
       <img
         src={coverImage}
         className="my-2"
-        style={{ width: "100%" }}
+        style={{ width: "50%" }}
         alt="cover"
       />
+      <p>My name is Joel Rivera and I'm a student for Fullstack Development.</p>
     </section>
   );
 };
