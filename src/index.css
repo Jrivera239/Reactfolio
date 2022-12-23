@@ -31,7 +31,11 @@ body {
 .reaxt{
   color: var(--secondary);
 }
-
+.reaxt:hover{
+  color:#8c54ff;
+  transition: .5s;
+  font-size: large;
+}
 .link{
   text-align: center;
   text-decoration: none;
@@ -110,11 +114,7 @@ a:hover {
   text-decoration: none;
   color:#8c54ff
 }
-.reaxt:hover{
-  color:#8c54ff;
-  transition: .5s;
-  font-size: larger;
-}
+
 .btn{
   background-color: var(--secondary);
 }
