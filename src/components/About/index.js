@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/cover/cover-image.jpg";
+import coverImage from "../../assets/cover/cover-image2.JPG";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         style={{ width: "50%" }}
         alt="cover"
       />
-      <p>My name is Joel Rivera and I'm a student for Fullstack Development.</p>
+      <p>My name is Joel Rivera and I'm a graduated student from UCF Fullstack Development.</p>
     </section>
   );
 };

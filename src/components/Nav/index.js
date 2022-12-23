@@ -16,18 +16,22 @@ const Nav = (props) => {
 
 
   return (
-    <header>
-      <h2>
+    <header className="bgc">
+      <h2 className="link">
         <a data-testid="link design-none" href="/">
-          <span class="design-none">
-          </span >{" "}
-          Reactfolio
+          <span class="design-none"></span >{" "}
+          <span className="reaxt">R</span>e
+          <span className="reaxt">a</span>c
+          <span className="reaxt">t</span>F
+          <span className="reaxt">o</span>l
+          <span className="reaxt">i</span>o
+
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a
+            <a  className="reaxt"
               data-testid="about"
               href="#about"
               onClick={() => setContactSelected(false)}
@@ -36,7 +40,7 @@ const Nav = (props) => {
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+            <span className="reaxt" onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (
             <li
@@ -47,7 +51,7 @@ const Nav = (props) => {
               }`}
               key={category.name}
             >
-              <span
+              <span  className="reaxt"
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);

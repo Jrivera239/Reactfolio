@@ -10,16 +10,13 @@ function App() {
 
   const [categories] = useState([
     {
-      name: "commercial",
+      name: "Projects",
       description:
-        "Photos of grocery stores, food trucks, and other commercial projects",
+        "Screenshots of  my projects created so far.",
     },
-    { name: "portraits", description: "Portraits of people in my life" },
-    { name: "food", description: "Delicious delicacies" },
-    {
-      name: "landscape",
-      description: "Fields, farmhouses, waterfalls, and the beauty of nature",
-    },
+    { name: "Portrait", description: "Portraits of myself and my bio." },
+    { name: "", description: "" },
+   
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
